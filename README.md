@@ -1,34 +1,24 @@
-🎵 Mini Player de Música com Controle via Mouse e Teclado
-Este é um player de música simples feito em Python, usando Tkinter para a interface gráfica e Pygame para reprodução de áudio. O player permite tocar músicas de uma pasta local, com suporte para os formatos .mp3, .wav e .ogg.
+🎵 Mini Player de Música com Controle Global por Teclado
+Este é um player de música simples feito em Python, utilizando Tkinter para a interface gráfica e Pygame para reprodução de áudio. Ele permite tocar músicas de uma pasta local com suporte a .mp3, .wav e .ogg, com atalhos globais de teclado mesmo quando a janela estiver fora de foco.
 
-Funcionalidades principais
+🔑 Funcionalidades Principais
+✅ Reprodução aleatória de músicas de uma pasta definida pelo usuário.
+✅ Interface gráfica simples e transparente sempre no topo, com botões para controle básico:
 
-->Reproduz músicas embaralhadas de uma pasta definida pelo usuário.
-->Controles básicos via interface gráfica:
-->Botão "Voltar" para música anterior.
-->Botão "Pausar" para pausar ou retomar a música.
-->Botão "Próxima" para avançar para a próxima música.
-->Controle global por mouse (funciona mesmo com a janela fora de foco):
-->Clique no botão do meio do mouse (scroll) pausa/despausa a música.
-->Duplo clique rápido no botão do meio pula para a próxima música.
-->Controle global por teclado:
-->Pressionar Esc pausa/despausa a música.
-->Duplo pressionamento rápido de Esc pula para a próxima música.
-->Atalho Ctrl + Alt + Q fecha o player.
-->Interface transparente e sempre no topo para acesso rápido.
+⏮ Voltar
 
-#Requisitos
--Python 3.x
+⏯ Pausar/Continuar
 
-#Bibliotecas Python:
--pygame
--pynput
+⏭ Próxima
 
-#Instale as dependências com:
-->pip install pygame pynput
+✅ Atalhos globais de teclado (funcionam mesmo com a janela minimizada ou em segundo plano):
 
-#Como usar
+Tab + , → Diminui o volume
 
-->Altere a variável PASTA_MUSICAS no código para o caminho da sua pasta de músicas.
-->Execute o script Python.
-->Use a interface gráfica ou os controles do mouse e teclado para controlar a reprodução.
+Tab + . → Aumenta o volume
+
+Tab + Esc → Fecha o player
+
+Clique no botão do meio do mouse (scroll) → Pausa/despausa a música
+
+Duplo clique rápido no botão do meio → Pula para a próxima faixa
